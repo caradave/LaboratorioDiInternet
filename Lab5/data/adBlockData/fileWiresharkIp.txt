@@ -1,0 +1,24 @@
+Numero transazioni HTML: 60
+Numero di oggetti per mimeType: 62
+Numero server contattati: 13
+
+104.18.187.31 : adv amazon, pacchetti upd +tcp, prima connessine, poco più di due decine di pacchetti
+104.18.23.145 pacchetti da cadmus.script.ac, adinplay (manager cookies), tutti pacchetti tcp, tutto criptato, vicino alla centinia di pacchetti
+108.138.190.150 server di amazon per le pubblicità che passano per adinplay, tutto criptato, tutto tcp
+
+130.211.23.194 mix tcp e udp e tls, sempre per i cookies, adinplay e cadmus
+172.67.41.60 adinplay, necessario per fare il display dei cookies, anche questo passa per adinplay, tutto criptato, pacchetti tcp e tls
+
+104.26.2.70 ads google, tutti tcp e tls qualche centinaio di pacchetti (contattato due volte)
+104.26.3.232
+216.239.34.36 analitiche di google, tutti pacchetti udp
+216.58.204.227 fonts.gstatic.com tutti pacchetti upd diverse centinaia server su cui appoggia goole
+216.58.205.42 api di google per i fonts, pacchetti in prevalenza udp, change cipher spec
+216.58.209.40 analitiche di google, inizializzato direttamente da skribbl.io, tutti pacchetti udp
+
+
+
+135.125.189.105 Server di skribbl.io, pacchetti tcp, moltissimi pacchetti
+
+
+Total bodysize: 1936050

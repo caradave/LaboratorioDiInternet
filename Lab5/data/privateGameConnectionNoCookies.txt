@@ -1,0 +1,2206 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "WebInspector",
+      "version": "537.36"
+    },
+    "pages": [
+      {
+        "startedDateTime": "2024-06-06T14:15:42.730Z",
+        "id": "page_7",
+        "title": "https://skribbl.io/?pxCWVHud",
+        "pageTimings": {
+          "onContentLoad": 118.02499999976135,
+          "onLoad": 310.39400000008754
+        }
+      }
+    ],
+    "entries": [
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "oa",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 39719
+              },
+              {
+                "functionName": "",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 54015
+              },
+              {
+                "functionName": "ia",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 40502
+              },
+              {
+                "functionName": "",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 54001
+              }
+            ]
+          }
+        },
+        "_priority": "High",
+        "_resourceType": "xhr",
+        "cache": {},
+        "connection": "53433",
+        "pageref": "page_7",
+        "request": {
+          "method": "POST",
+          "url": "https://skribbl.io/api/play",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "*/*"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "11"
+            },
+            {
+              "name": "Content-type",
+              "value": "application/x-www-form-urlencoded"
+            },
+            {
+              "name": "Cookie",
+              "value": "_ga_YB9N45W3N0=GS1.1.1717682434.1.1.1717683118.0.0.0; StatsSend=true; CountryCode=IT; userFromEEA=true; __cmpconsentx13566=CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA; __cmpcccx13566=aBP_0aUQgAAAAAA"
+            },
+            {
+              "name": "Host",
+              "value": "skribbl.io"
+            },
+            {
+              "name": "Origin",
+              "value": "https://skribbl.io"
+            },
+            {
+              "name": "Referer",
+              "value": "https://skribbl.io/?pxCWVHud"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "empty"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Linux\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "_ga_YB9N45W3N0",
+              "value": "GS1.1.1717682434.1.1.1717683118.0.0.0",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2025-07-11T14:11:58.752Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "StatsSend",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:11:59.088Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CountryCode",
+              "value": "IT",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.217Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "userFromEEA",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.220Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__cmpconsentx13566",
+              "value": "CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__cmpcccx13566",
+              "value": "aBP_0aUQgAAAAAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            }
+          ],
+          "headersSize": 834,
+          "bodySize": 11,
+          "postData": {
+            "mimeType": "application/x-www-form-urlencoded",
+            "text": "id=pxCWVHud",
+            "params": [
+              {
+                "name": "id",
+                "value": "pxCWVHud"
+              }
+            ]
+          }
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Access-Control-Allow-Origin",
+              "value": "*"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Content-Length",
+              "value": "31"
+            },
+            {
+              "name": "Content-Type",
+              "value": "text/html; charset=utf-8"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:52 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"1f-BugMIOuhgZlEqj8sqycGSR2o2EM\""
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 31,
+            "mimeType": "text/html",
+            "compression": 0
+          },
+          "redirectURL": "",
+          "headersSize": 259,
+          "bodySize": 31,
+          "_transferSize": 290,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.072Z",
+        "time": 32.29100000044127,
+        "timings": {
+          "blocked": 1.0690000004859175,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.09999999999999998,
+          "wait": 29.132000000204776,
+          "receive": 1.9899999997505802,
+          "_blocked_queueing": 0.5280000004859176
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53433",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/load.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:26 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Wed, 30 Jun 2021 14:00:32 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"47e-17a5d38a800\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1150"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1150,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.073Z",
+        "time": 0.14599999940401176,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.1249999995707185,
+          "receive": 0.02099999983329326,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_initiator": {
+          "type": "script",
+          "stack": {
+            "callFrames": [
+              {
+                "functionName": "value",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 17425
+              },
+              {
+                "functionName": "value",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 9791
+              },
+              {
+                "functionName": "value",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 24088
+              },
+              {
+                "functionName": "a",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 23377
+              },
+              {
+                "functionName": "value",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 45618
+              },
+              {
+                "functionName": "s",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 44482
+              },
+              {
+                "functionName": "Vt",
+                "scriptId": "2938",
+                "url": "https://skribbl.io/js/socket.io.js",
+                "lineNumber": 5,
+                "columnNumber": 49453
+              },
+              {
+                "functionName": "la",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 40783
+              },
+              {
+                "functionName": "",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 54078
+              },
+              {
+                "functionName": "o",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 39252
+              },
+              {
+                "functionName": "onreadystatechange",
+                "scriptId": "2939",
+                "url": "https://skribbl.io/js/game.js",
+                "lineNumber": 0,
+                "columnNumber": 39596
+              }
+            ],
+            "parent": {
+              "description": "XMLHttpRequest.send",
+              "callFrames": [
+                {
+                  "functionName": "oa",
+                  "scriptId": "2939",
+                  "url": "https://skribbl.io/js/game.js",
+                  "lineNumber": 0,
+                  "columnNumber": 39719
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "2939",
+                  "url": "https://skribbl.io/js/game.js",
+                  "lineNumber": 0,
+                  "columnNumber": 54015
+                },
+                {
+                  "functionName": "ia",
+                  "scriptId": "2939",
+                  "url": "https://skribbl.io/js/game.js",
+                  "lineNumber": 0,
+                  "columnNumber": 40502
+                },
+                {
+                  "functionName": "",
+                  "scriptId": "2939",
+                  "url": "https://skribbl.io/js/game.js",
+                  "lineNumber": 0,
+                  "columnNumber": 54001
+                }
+              ]
+            }
+          }
+        },
+        "_priority": null,
+        "_resourceType": "websocket",
+        "_webSocketMessages": [
+          {
+            "type": "receive",
+            "time": 1717683352.232501,
+            "opcode": 1,
+            "data": "0{\"sid\":\"JYAsfjUKtA4vUDJxAhbn\",\"upgrades\":[],\"pingInterval\":25000,\"pingTimeout\":20000,\"maxPayload\":1000000}"
+          },
+          {
+            "type": "send",
+            "time": 1717683352.233612,
+            "opcode": 1,
+            "data": "40"
+          },
+          {
+            "type": "receive",
+            "time": 1717683352.273456,
+            "opcode": 1,
+            "data": "40{\"sid\":\"rJZ--5JcoKc_G2UPAhbo\"}"
+          },
+          {
+            "type": "send",
+            "time": 1717683352.274461,
+            "opcode": 1,
+            "data": "42[\"login\",{\"join\":\"pxCWVHud\",\"create\":0,\"name\":\"Drizello\",\"lang\":\"0\",\"avatar\":[15,3,2,-1]}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683352.314999,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":10,\"data\":{\"settings\":[0,8,80,3,3,2,0,0],\"id\":\"pxCWVHud\",\"type\":1,\"me\":3,\"owner\":1,\"users\":[{\"id\":1,\"name\":\"manu\",\"avatar\":[14,17,18,-1],\"score\":0,\"guessed\":false,\"flags\":0},{\"id\":3,\"name\":\"Drizello\",\"avatar\":[15,3,2,-1],\"score\":0,\"guessed\":false,\"flags\":0}],\"round\":0,\"state\":{\"id\":7,\"time\":0,\"data\":0}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683361.2002382,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":2,\"time\":2,\"data\":0}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683363.506997,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":3,\"time\":15,\"data\":{\"id\":3,\"words\":[\"Tower Bridge\",\"diary\",\"rat\"]}}}]"
+          },
+          {
+            "type": "send",
+            "time": 1717683366.5994081,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":18,\"data\":2}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683366.639377,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":4,\"time\":80,\"data\":{\"id\":3,\"word\":\"rat\"}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683376.3274462,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":14,\"data\":32}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683376.3279812,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":15,\"data\":{\"id\":1}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683376.329143,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":5,\"time\":3,\"data\":{\"reason\":0,\"word\":\"rat\",\"scores\":[1,270,270,3,70,70]}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683377.2305732,
+            "opcode": 1,
+            "data": "2"
+          },
+          {
+            "type": "send",
+            "time": 1717683377.231192,
+            "opcode": 1,
+            "data": "3"
+          },
+          {
+            "type": "receive",
+            "time": 1717683379.507188,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":3,\"time\":15,\"data\":{\"id\":1}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683383.715382,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":4,\"time\":80,\"data\":{\"id\":1,\"word\":[4],\"hints\":[],\"drawCommands\":[]}}}]"
+          },
+          {
+            "type": "send",
+            "time": 1717683387.543836,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":30,\"data\":\"Finn\"}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683387.5844362,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":14,\"data\":32}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683387.585067,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":15,\"data\":{\"id\":3,\"word\":\"Finn\"}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683387.5876431,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":5,\"time\":3,\"data\":{\"reason\":0,\"word\":\"Finn\",\"scores\":[1,345,75,3,370,300]}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683391.508764,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":2,\"time\":2,\"data\":1}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683394.5091991,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":3,\"time\":15,\"data\":{\"id\":3,\"words\":[\"gravedigger\",\"coach\",\"studio\"]}}}]"
+          },
+          {
+            "type": "send",
+            "time": 1717683400.712696,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":18,\"data\":2}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683400.7532241,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":4,\"time\":80,\"data\":{\"id\":3,\"word\":\"studio\"}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683402.271397,
+            "opcode": 1,
+            "data": "2"
+          },
+          {
+            "type": "send",
+            "time": 1717683402.27164,
+            "opcode": 1,
+            "data": "3"
+          },
+          {
+            "type": "receive",
+            "time": 1717683427.310794,
+            "opcode": 1,
+            "data": "2"
+          },
+          {
+            "type": "send",
+            "time": 1717683427.311278,
+            "opcode": 1,
+            "data": "3"
+          },
+          {
+            "type": "receive",
+            "time": 1717683452.350964,
+            "opcode": 1,
+            "data": "2"
+          },
+          {
+            "type": "send",
+            "time": 1717683452.3516781,
+            "opcode": 1,
+            "data": "3"
+          },
+          {
+            "type": "receive",
+            "time": 1717683477.390877,
+            "opcode": 1,
+            "data": "2"
+          },
+          {
+            "type": "send",
+            "time": 1717683477.391272,
+            "opcode": 1,
+            "data": "3"
+          },
+          {
+            "type": "receive",
+            "time": 1717683481.5140522,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":5,\"time\":3,\"data\":{\"reason\":1,\"word\":\"studio\",\"scores\":[1,345,0,3,370,0]}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683485.5138862,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":3,\"time\":15,\"data\":{\"id\":1}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683501.513935,
+            "opcode": 1,
+            "data": "42[\"data\",{\"id\":11,\"data\":{\"id\":4,\"time\":80,\"data\":{\"id\":1,\"word\":[4],\"hints\":[],\"drawCommands\":[]}}}]"
+          },
+          {
+            "type": "receive",
+            "time": 1717683502.431334,
+            "opcode": 1,
+            "data": "2"
+          },
+          {
+            "type": "send",
+            "time": 1717683502.431538,
+            "opcode": 1,
+            "data": "3"
+          }
+        ],
+        "cache": {},
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "wss://server3.skribbl.io/5004/?EIO=4&transport=websocket",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Pragma",
+              "value": "no-cache"
+            },
+            {
+              "name": "Origin",
+              "value": "https://skribbl.io"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Host",
+              "value": "server3.skribbl.io"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Sec-WebSocket-Key",
+              "value": "AWx/XQFLMEmmThk0ez79Hg=="
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "Upgrade",
+              "value": "websocket"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "no-cache"
+            },
+            {
+              "name": "Connection",
+              "value": "Upgrade"
+            },
+            {
+              "name": "Sec-WebSocket-Version",
+              "value": "13"
+            },
+            {
+              "name": "Sec-WebSocket-Extensions",
+              "value": "permessage-deflate; client_max_window_bits"
+            }
+          ],
+          "queryString": [
+            {
+              "name": "EIO",
+              "value": "4"
+            },
+            {
+              "name": "transport",
+              "value": "websocket"
+            }
+          ],
+          "cookies": [],
+          "headersSize": 543,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 101,
+          "statusText": "Switching Protocols",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:52 GMT"
+            },
+            {
+              "name": "Sec-WebSocket-Accept",
+              "value": "POTS5vGQ+Hz4r/aOlLdeiktS0Hw="
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.22.1"
+            },
+            {
+              "name": "Connection",
+              "value": "upgrade"
+            },
+            {
+              "name": "Upgrade",
+              "value": "websocket"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 0,
+            "mimeType": "x-unknown",
+            "compression": 188
+          },
+          "redirectURL": "",
+          "headersSize": 188,
+          "bodySize": -188,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "",
+        "startedDateTime": "2024-06-06T14:15:52.189Z",
+        "time": 150241.56399999993,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 150241.56399999993,
+          "receive": 0,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53433",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/settings.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 04 Sep 2021 15:32:41 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"18d-17bb170bda8\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "397"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 397,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.319Z",
+        "time": 0.14399999963643495,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.11199999971722718,
+          "receive": 0.03199999991920777,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53427",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/clock.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 24 Mar 2018 17:03:14 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"6aa-16258f6d450\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1706"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1706,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.319Z",
+        "time": 0.07900000036897836,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.0669999999445281,
+          "receive": 0.012000000424450263,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53433",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/owner.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Fri, 16 Jul 2021 18:39:56 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"dd-17ab09e3460\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "221"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 221,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.320Z",
+        "time": 0.08300000081362668,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.06100000064179767,
+          "receive": 0.022000000171829015,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53517",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/thumbsup.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 24 Mar 2018 17:03:14 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"671-16258f6d450\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1649"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1649,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.320Z",
+        "time": 0.07099999947968172,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.05899999996472616,
+          "receive": 0.011999999514955562,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53532",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/thumbsdown.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Sat, 24 Mar 2018 17:03:14 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"67a-16258f6d450\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "1658"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 1658,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.320Z",
+        "time": 0.16600000071775867,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.14700000065204222,
+          "receive": 0.01900000006571645,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_fromCache": "memory",
+        "_initiator": {
+          "type": "parser",
+          "url": "https://skribbl.io/css/style.css"
+        },
+        "_priority": "Low",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53538",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/size.gif",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Referer",
+              "value": ""
+            }
+          ],
+          "queryString": [],
+          "cookies": [],
+          "headersSize": -1,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "http/1.1",
+          "headers": [
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:28 GMT"
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Thu, 25 Aug 2022 17:59:48 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"102-182d6290220\""
+            },
+            {
+              "name": "Content-Type",
+              "value": "image/gif"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Content-Length",
+              "value": "258"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 258,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": -1,
+          "bodySize": 0,
+          "_transferSize": 0,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.321Z",
+        "time": 0.10900000052060932,
+        "timings": {
+          "blocked": -1,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0,
+          "wait": 0.08299999990413198,
+          "receive": 0.026000000616477337,
+          "_blocked_queueing": -1
+        }
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "High",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53433",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/pen.gif",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "_ga_YB9N45W3N0=GS1.1.1717682434.1.1.1717683118.0.0.0; StatsSend=true; CountryCode=IT; userFromEEA=true; __cmpconsentx13566=CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA; __cmpcccx13566=aBP_0aUQgAAAAAA"
+            },
+            {
+              "name": "Host",
+              "value": "skribbl.io"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 25 Jul 2022 17:54:17 GMT"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "W/\"1bf-182367ed128\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://skribbl.io/?pxCWVHud"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "image"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Linux\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "_ga_YB9N45W3N0",
+              "value": "GS1.1.1717682434.1.1.1717683118.0.0.0",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2025-07-11T14:11:58.752Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "StatsSend",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:11:59.088Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CountryCode",
+              "value": "IT",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.217Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "userFromEEA",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.220Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__cmpconsentx13566",
+              "value": "CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__cmpcccx13566",
+              "value": "aBP_0aUQgAAAAAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            }
+          ],
+          "headersSize": 889,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:52 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"1bf-182367ed128\""
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 25 Jul 2022 17:54:17 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 447,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 0,
+          "_transferSize": 264,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.321Z",
+        "time": 34.7780000001876,
+        "timings": {
+          "blocked": 1.5560000000057044,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.06400000000000006,
+          "wait": 27.178999999702327,
+          "receive": 5.979000000479573,
+          "_blocked_queueing": 0.40300000000570435
+        }
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "High",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53538",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/fill.gif",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "_ga_YB9N45W3N0=GS1.1.1717682434.1.1.1717683118.0.0.0; StatsSend=true; CountryCode=IT; userFromEEA=true; __cmpconsentx13566=CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA; __cmpcccx13566=aBP_0aUQgAAAAAA"
+            },
+            {
+              "name": "Host",
+              "value": "skribbl.io"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 25 Jul 2022 17:54:03 GMT"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "W/\"203-182367e9a78\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://skribbl.io/?pxCWVHud"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "image"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Linux\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "_ga_YB9N45W3N0",
+              "value": "GS1.1.1717682434.1.1.1717683118.0.0.0",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2025-07-11T14:11:58.752Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "StatsSend",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:11:59.088Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CountryCode",
+              "value": "IT",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.217Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "userFromEEA",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.220Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__cmpconsentx13566",
+              "value": "CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__cmpcccx13566",
+              "value": "aBP_0aUQgAAAAAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            }
+          ],
+          "headersSize": 890,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:52 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"203-182367e9a78\""
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 25 Jul 2022 17:54:03 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 515,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 0,
+          "_transferSize": 264,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.321Z",
+        "time": 27.31599999970058,
+        "timings": {
+          "blocked": 1.4780000000662985,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.05400000000000005,
+          "wait": 19.37699999978056,
+          "receive": 6.406999999853724,
+          "_blocked_queueing": 0.3790000000662985
+        }
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "High",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53532",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/undo.gif",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "_ga_YB9N45W3N0=GS1.1.1717682434.1.1.1717683118.0.0.0; StatsSend=true; CountryCode=IT; userFromEEA=true; __cmpconsentx13566=CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA; __cmpcccx13566=aBP_0aUQgAAAAAA"
+            },
+            {
+              "name": "Host",
+              "value": "skribbl.io"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 25 Jul 2022 19:01:02 GMT"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "W/\"19b-18236bbedb0\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://skribbl.io/?pxCWVHud"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "image"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Linux\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "_ga_YB9N45W3N0",
+              "value": "GS1.1.1717682434.1.1.1717683118.0.0.0",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2025-07-11T14:11:58.752Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "StatsSend",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:11:59.088Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CountryCode",
+              "value": "IT",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.217Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "userFromEEA",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.220Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__cmpconsentx13566",
+              "value": "CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__cmpcccx13566",
+              "value": "aBP_0aUQgAAAAAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            }
+          ],
+          "headersSize": 890,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:52 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"19b-18236bbedb0\""
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 25 Jul 2022 19:01:02 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 411,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 0,
+          "_transferSize": 264,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.322Z",
+        "time": 28.000999999676424,
+        "timings": {
+          "blocked": 1.433000000000582,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.04600000000000004,
+          "wait": 20.361000000337896,
+          "receive": 6.160999999337946,
+          "_blocked_queueing": 0.3600000000005821
+        }
+      },
+      {
+        "_initiator": {
+          "type": "other"
+        },
+        "_priority": "High",
+        "_resourceType": "image",
+        "cache": {},
+        "connection": "53517",
+        "pageref": "page_7",
+        "request": {
+          "method": "GET",
+          "url": "https://skribbl.io/img/clear.gif",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept",
+              "value": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "Accept-Encoding",
+              "value": "gzip, deflate, br, zstd"
+            },
+            {
+              "name": "Accept-Language",
+              "value": "en-US,en;q=0.9"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Cookie",
+              "value": "_ga_YB9N45W3N0=GS1.1.1717682434.1.1.1717683118.0.0.0; StatsSend=true; CountryCode=IT; userFromEEA=true; __cmpconsentx13566=CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA; __cmpcccx13566=aBP_0aUQgAAAAAA"
+            },
+            {
+              "name": "Host",
+              "value": "skribbl.io"
+            },
+            {
+              "name": "If-Modified-Since",
+              "value": "Mon, 25 Jul 2022 17:53:44 GMT"
+            },
+            {
+              "name": "If-None-Match",
+              "value": "W/\"1df-182367e5040\""
+            },
+            {
+              "name": "Referer",
+              "value": "https://skribbl.io/?pxCWVHud"
+            },
+            {
+              "name": "Sec-Fetch-Dest",
+              "value": "image"
+            },
+            {
+              "name": "Sec-Fetch-Mode",
+              "value": "no-cors"
+            },
+            {
+              "name": "Sec-Fetch-Site",
+              "value": "same-origin"
+            },
+            {
+              "name": "User-Agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36"
+            },
+            {
+              "name": "sec-ch-ua",
+              "value": "\"Google Chrome\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+            },
+            {
+              "name": "sec-ch-ua-mobile",
+              "value": "?0"
+            },
+            {
+              "name": "sec-ch-ua-platform",
+              "value": "\"Linux\""
+            }
+          ],
+          "queryString": [],
+          "cookies": [
+            {
+              "name": "_ga_YB9N45W3N0",
+              "value": "GS1.1.1717682434.1.1.1717683118.0.0.0",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2025-07-11T14:11:58.752Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "StatsSend",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:11:59.088Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "CountryCode",
+              "value": "IT",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.217Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "userFromEEA",
+              "value": "true",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-09-05T21:39:08.220Z",
+              "httpOnly": false,
+              "secure": false
+            },
+            {
+              "name": "__cmpconsentx13566",
+              "value": "CP_yL7AP_yL7AAfYeBENA3EgAAAAAAAAAAigAAAO5gCgA4AM-AjwBKoDuQAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            },
+            {
+              "name": "__cmpcccx13566",
+              "value": "aBP_0aUQgAAAAAA",
+              "path": "/",
+              "domain": ".skribbl.io",
+              "expires": "2024-06-07T14:12:04.000Z",
+              "httpOnly": false,
+              "secure": true,
+              "sameSite": "Lax"
+            }
+          ],
+          "headersSize": 891,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 304,
+          "statusText": "Not Modified",
+          "httpVersion": "HTTP/1.1",
+          "headers": [
+            {
+              "name": "Accept-Ranges",
+              "value": "bytes"
+            },
+            {
+              "name": "Cache-Control",
+              "value": "public, max-age=0"
+            },
+            {
+              "name": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "name": "Date",
+              "value": "Thu, 06 Jun 2024 14:15:52 GMT"
+            },
+            {
+              "name": "ETag",
+              "value": "W/\"1df-182367e5040\""
+            },
+            {
+              "name": "Last-Modified",
+              "value": "Mon, 25 Jul 2022 17:53:44 GMT"
+            },
+            {
+              "name": "Server",
+              "value": "nginx/1.24.0"
+            },
+            {
+              "name": "X-Powered-By",
+              "value": "Express"
+            }
+          ],
+          "cookies": [],
+          "content": {
+            "size": 479,
+            "mimeType": "image/gif"
+          },
+          "redirectURL": "",
+          "headersSize": 264,
+          "bodySize": 0,
+          "_transferSize": 264,
+          "_error": null
+        },
+        "serverIPAddress": "135.125.189.105",
+        "startedDateTime": "2024-06-06T14:15:52.322Z",
+        "time": 15.93700000012177,
+        "timings": {
+          "blocked": 1.4569999996620464,
+          "dns": -1,
+          "ssl": -1,
+          "connect": -1,
+          "send": 0.04899999999999993,
+          "wait": 12.536999999557272,
+          "receive": 1.8940000009024516,
+          "_blocked_queueing": 0.3589999996620463
+        }
+      }
+    ]
+  }
+}

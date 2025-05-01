@@ -1,0 +1,14 @@
+Numero transazioni HTML: 55
+Numero di oggetti per mimeType: 56
+Numero server contattati: 11
+104.18.186.31
+104.18.23.145
+104.26.2.232
+130.211.23.194
+135.125.189.105
+142.251.209.10
+142.251.209.3
+172.67.41.60
+216.239.34.36
+216.58.205.40
+Total bodysize: 1623406
